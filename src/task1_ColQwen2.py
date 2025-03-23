@@ -8,20 +8,13 @@ import json
 import pandas as pd
 import numpy as np
 
-# from dotenv import load_dotenv
-# from huggingface_hub import login
 from datasets import load_dataset
-
 
 import torch
 from torch.utils.data import Dataset, DataLoader
 from colpali_engine.models import ColQwen2, ColQwen2Processor
 from transformers.utils.import_utils import is_flash_attn_2_available
 
-# # Load environment variables and authenticate
-# load_dotenv()
-# HUGGINGFACE_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
-# login(token=HUGGINGFACE_TOKEN)
 
 class EmbedModel:
     def __init__(self, model_name):

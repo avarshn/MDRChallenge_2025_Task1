@@ -52,6 +52,7 @@ The **MMDocIR evaluation set** will be used for evaluation in this challenge.
 Execute the challenge using the provided script:
 
 ```bash
+mkdir model_cache
 cd src
 ./run.sh
 ```
