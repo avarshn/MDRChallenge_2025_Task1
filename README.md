@@ -31,10 +31,6 @@ Identify the most relevant pages within a document in response to a user query. 
 MDRChallenge_2025_Task1/
 ├── data_task1/
 │   ├── MMDocIR_gt_remove.jsonl  # JSONL file with QuestionID, Questions, Doc Name and other info
-│   ├── utils.py               # Image resizing, top-k utilities
-│   ├── scrape.py              # Wikipedia image scraping logic
-│   ├── main.py                # End-to-end pipeline: index + query
-│   ├── config.py              # Config
 ├── misc/
 │   ├── retrieval_workflow.png # Code Workflow
 ├── src/
