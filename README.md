@@ -25,6 +25,29 @@ Identify the most relevant pages within a document in response to a user query. 
 
 ---
 
+## 📁 Project Structure
+
+```
+MDRChallenge_2025_Task1/
+├── data_task1/
+│   ├── MMDocIR_gt_remove.jsonl  # JSONL file with QuestionID, Questions, Doc Name and other info
+│   ├── utils.py               # Image resizing, top-k utilities
+│   ├── scrape.py              # Wikipedia image scraping logic
+│   ├── main.py                # End-to-end pipeline: index + query
+│   ├── config.py              # Config
+├── misc/
+│   ├── retrieval_workflow.png # Code Workflow
+├── src/
+│   ├── task1_ColQwen2.py      # End-to-end pipeline: embedding + querying + retrieval
+│   ├── runs.sh                # Shell script to run task1_ColQwen2.py on whole MMDocIR evaluation dataset
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt           # Python Packages with their versions used
+
+```
+---
+
 ## Environment Setup
 Follow these steps to set up your environment:
 
