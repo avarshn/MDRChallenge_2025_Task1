@@ -3,6 +3,11 @@ model_cache/
 data_task1/MMDocIR___mm_doc_ir-challenge/
 results_task1/vidore/colqwen2-v1.0/task1_0.csv
 
+*.rar
+*.parquet
+
+data_task1/*/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
